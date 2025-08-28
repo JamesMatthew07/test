@@ -1,0 +1,13 @@
+:root{
+  --brand-navy:#0e1b2a;
+  --brand-red:#d21c1c;
+  --bg:#f6f7f9;
+}
+body{ background:var(--bg); }
+.navbar{ background:var(--brand-navy); }
+.navbar .navbar-brand{ color:#fff; font-weight:600; }
+.card{ border:0; border-radius:14px; box-shadow:0 8px 24px rgba(0,0,0,.08); }
+.btn-primary{ background:var(--brand-red); border-color:var(--brand-red); }
+.container-narrow{ max-width:760px; }
+.form-label{ font-weight:600; }
+.step{ color:#6c757d; font-weight:600; text-transform:uppercase; letter-spacing:.05em; }
